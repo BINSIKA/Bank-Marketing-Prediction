@@ -15,21 +15,19 @@ Steps:
    
 Goal:
 Predict deposit subscription (`yes`/`no`) before customer contact ends — avoiding data leakage from `duration`.
-
-⚙️ Requirements
+ Requirements
 
 bash
 pip install pandas scikit-learn matplotlib numpy
 
-▶️ Run
+ Run
 
 1. Place `bank.csv` in the project folder.  
 2. Run the script:
 
 bash
 python bank_decision_tree.py
-
-📊 Output
+ Output
 
 Test accuracy and classification report  
  Decision tree visualization  
